@@ -1,0 +1,50 @@
+.login-button {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+  cursor: pointer;
+}
+.nav-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.menu-list {
+  display: flex;
+  list-style-type: none;
+}
+.menu-list li {
+  padding: 10px;
+}
+.menu-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.search-area {
+  display: flex;
+  justify-content: flex-end;
+}
+.search-button {
+  position: absolute;
+  right: 0;
+  top: 50%; transform: translateY(-50%);
+}
+.search-button input {
+  border: 1px solid white;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-size: 16px;
+  margin: 10px;
+  height: 16px;
+}
+.product-area {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.product-area img {
+  width: 300px;
+  margin-bottom: 10px;
+}
